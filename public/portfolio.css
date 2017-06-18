@@ -1,5 +1,5 @@
 * {
-  width: 100%;
+  max-width: 750px;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   margin: 0;
@@ -20,6 +20,7 @@ li {
 
 .samples {
   display: inline;
+  padding: 80px;
 }
 
 img {
@@ -27,7 +28,11 @@ img {
 }
 
 .img-circle {
-    border-radius: 50%;
+    border-radius: 45%;
+}
+
+.contact {
+  padding: 80px;
 }
 
 .contact li {
