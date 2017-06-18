@@ -5,6 +5,10 @@
   margin: 0;
 }
 
+p {
+  padding: 80px;
+}
+
 ul {
   list-style-type: none;
 }
@@ -20,4 +24,12 @@ li {
 
 img {
   width: 200px;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.contact li {
+  width: 15em;
 }
