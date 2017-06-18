@@ -1,12 +1,35 @@
 * {
-  max-width: 750px;
-  text-align: center;
   font-family: 'Open Sans', sans-serif;
-  margin: 0;
+  text-align: center;
+}
+
+body {
+  max-width: 1080px;
+  margin: 0 auto !important;
+  float: none !important;
+}
+
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+.lead {
+  font-size: 24px;
+}
+
+img {
+  float: left;
+  padding: 3em;
+  align-content: center;
 }
 
 p {
   padding: 80px;
+}
+
+p.lead {
+  clear: left;
 }
 
 ul {
@@ -23,18 +46,6 @@ li {
   padding: 80px;
 }
 
-img {
-  width: 200px;
-}
-
-.img-circle {
-    border-radius: 45%;
-}
-
 .contact {
   padding: 80px;
-}
-
-.contact li {
-  width: 15em;
 }
