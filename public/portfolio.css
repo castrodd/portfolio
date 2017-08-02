@@ -15,7 +15,7 @@ body {
 }
 
 .container-fluid {
-  550px;
+  height: 550px;
 }
 
 .lead {
