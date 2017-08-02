@@ -18,8 +18,10 @@ body {
   border-radius: 0;
 }
 
-.bg-3 {
-  height: 550px;
+.me {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
 }
 
 .lead {
