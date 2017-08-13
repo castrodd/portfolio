@@ -1,15 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
 * {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Lato', sans-serif;
   text-align: center;
 }
 
 html, body {
   height: 100%;
+  width: 100%;
 }
 
 body {
-  max-width: 1080px;
-  margin: 0 auto !important;
+  margin: 0 !important;
   float: none !important;
 }
 
