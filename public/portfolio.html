@@ -68,11 +68,30 @@
 
     </div>
     </div>
-    <br><br>
+  
 
     <div class="container-fluid bg-3 text-center littler-me">
-      <h3>Contact Me</h3><br>
-        <div class="row" id="contact">
+      <div class="container">
+        <form id="contact" action="" method="post">
+          <h3>Contact Me</h3>
+          <fieldset>
+            <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+          </fieldset>
+          <fieldset>
+            <input placeholder="Your Email Address" type="email" tabindex="2" required>
+          </fieldset>
+
+          <fieldset>
+            <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
+          </fieldset>
+          <fieldset>
+            <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+
+    <div class="row" id="contactrow">
           <div class="col-sm-4">
             <a href="https://www.linkedin.com/in/dandcastro"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
           </div>
@@ -85,7 +104,6 @@
             <a href="https://github.com/castrodd"><i class="fa fa-github" aria-hidden="true"></i></a>
           </div>
     </div>
-  </div>
 
        <div>&copy;2017</div>
 
