@@ -72,6 +72,11 @@ li {
   padding-top: 10em;
 }
 
+#midhead {
+  margin-top: 35px;
+  margin-bottom: 0;
+}
+
 .card {
   width: 25rem;
 }
@@ -112,7 +117,8 @@ li {
 #contact {
 	background:#F9F9F9;
 	padding:25px;
-	margin-top:50px;
+	margin-top:10px;
+  margin-bottom: 35px;
 }
 
 #contact h3 {
