@@ -26,6 +26,14 @@ body {
   height: 100%;
 }
 
+.little-me {
+  height: 100%;
+}
+
+.littler-me {
+  height: 25%;
+}
+
 .mandelbrot {
   background-image: url('/images/mandelbrot.png');
 }
@@ -59,10 +67,11 @@ li {
 .card-columns {
   display: flex;
   flex-flow: row;
+  padding-top: 10em;
 }
 
 .card {
-  width: 30rem;
+  width: 25rem;
 }
 
 .card-block {
