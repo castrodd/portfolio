@@ -26,15 +26,14 @@ body {
   height: 100%;
 }
 
+.mandelbrot {
+  background-image: url('/images/mandelbrot.png');
+}
+
 .lead {
   font-size: 24px;
 }
 
-img {
-  float: left;
-  padding: 3em;
-  align-content: center;
-}
 
 p {
   padding: 80px;
@@ -51,6 +50,27 @@ ul {
 li {
   display: inline-block;
   width: 10em;
+}
+
+.mid {
+  display: inline-block;
+}
+
+.card-columns {
+  display: flex;
+  flex-flow: row;
+}
+
+.card {
+  width: 30rem;
+}
+
+.card-block {
+  padding-top: 1em;
+}
+
+.card-img-top {
+  width: 20rem;
 }
 
 .samples {

@@ -21,15 +21,17 @@
         <div class="navbar-header">
           <a class="navbar-brand" href="#">Daniel Castro</a>
         </div>
-        <ul class="nav navbar-nav">
+        <div>
+         <ul class="nav navbar-nav">
           <li><a href="#about">About</a></li>
           <li><a href="#work">Work</a></li>
           <li><a href="#contact">Contact</a></li>
-        </ul>
+         </ul>
+        </div>
       </div>
     </nav>
 
-    <div class="me container-fluid bg-3 text-center" id="about">
+    <div class="me container-fluid bg-3 text-center mandelbrot" id="about">
       <div class="row" id="main">
 
         <p class="lead about">
@@ -38,47 +40,53 @@
       </div>
     </div><br><br>
 
-    <div class="me container-fluid bg-3 text-center">
+    <div class="container-fluid bg-3 text-center mid">
       <h3 id="work">Work</h3><br>
-        <div class="row">
-          <div class="col-sm-3">
+          <div class="card-columns">
 
-            <a target="_blank" href="https://brushstroke.herokuapp.com"><img class="img-responsive" style="width:100%" src="/images/brushstroke.png" alt="Art Site">Brushstroke</a>
-          </div>
-          <div class="col-sm-3">
+              <div class="card col-sm-4">
+               <img class="card-img-top img-fluid" src="/images/brushstroke.png" alt="Screenshot">
+               <div class="card-block">
+                   <a href="https://brushstroke.herokuapp.com" class="btn btn-primary">Brushstroke</a>
+               </div>
+              </div>
 
-            <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-          </div>
-          <div class="col-sm-3">
+              <div class="card col-sm-4">
+               <img class="card-img-top img-fluid" src="/images/style.png" alt="Screenshot">
+               <div class="card-block">
+                   <a href="https://brushstroke.herokuapp.com" class="btn btn-primary">StyleWrite</a>
+               </div>
+              </div>
 
-            <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-          </div>
-          <div class="col-sm-3">
+              <div class="card col-sm-4">
+               <img class="card-img-top img-fluid" src="/images/weather.png" alt="Screenshot">
+               <div class="card-block">
+                   <a href="https://brushstroke.herokuapp.com" class="btn btn-primary">Weather Station</a>
+               </div>
+              </div>
 
-            <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-          </div>
-        </div>
-    </div><br><br>
+    </div>
+    </div>
+    <br><br>
 
     <div class="container-fluid bg-3 text-center">
       <h3>Contact Me</h3><br>
         <div class="row" id="contact">
-          <div class="col-sm-3">
+          <div class="col-sm-4">
 
             <a href="https://twitter.com/dcstr0" class="twitter-follow-button" data-show-count="false">Follow @dcstr0</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
           </div>
-          <div class="col-sm-3">
+
+          <div class="col-sm-4">
 
             <script type="IN/MemberProfile" data-id="https://www.linkedin.com/in/dandcastro" data-format="click" data-related="false" data-text="Daniel Castro"></script>
           </div>
-          <div class="col-sm-3">
+
+          <div class="col-sm-4">
 
             <a class="github-button" href="https://github.com/castrodd" data-size="large" aria-label="Follow @castrodd on GitHub">Follow @castrodd</a>
           </div>
-          <div class="col-sm-3">
-            <div class="g-follow" data-annotation="bubble" data-height="20" data-href="//plus.google.com/u/0/110453357014046634409" data-rel="author"></div>
-          </div>
-        </div>
+
     </div><br><br>
 
     <footer class="container-fluid text-center">
