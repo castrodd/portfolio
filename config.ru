@@ -1,2 +1,2 @@
-require './portfolio'
+require './app'
 run Sinatra::Application
