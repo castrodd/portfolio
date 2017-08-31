@@ -33,6 +33,7 @@ body {
 
 .little-me {
   height: 100%;
+  width: 100%;
 }
 
 .littler-me {
@@ -83,7 +84,7 @@ li {
 }
 
 .card {
-  width: 25rem;
+  width: 100%;
 }
 
 .card-block {
